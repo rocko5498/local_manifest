@@ -6,15 +6,15 @@
   <remote name="kernel_xiaomi_phoenix" fetch="https://github.com/SreekanthPalakurthi/kranul_phoenix" />
 
   <!-- Device tree -->
-  <project name="PixelExperience-Devices/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="thirteen"/>
+  <project name="PixelExperience-Devices/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="twelve"/>
 
   <!-- Kernel source -->
-  <project name="PixelExperience-Devices/kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="kernel_xiaomi_phoenix" revision="thirteen"/>
+  <project name="PixelExperience-Devices/kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="kernel_xiaomi_phoenix" revision="twelve"/>
 
   <!-- Common vendor blobs -->
-  <project name="PixelExperience-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="device_xiaomi_phoenix" revision="thirteen"/>
+  <project name="PixelExperience-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="device_xiaomi_phoenix" revision="twelve"/>
 
   <!-- Device-specific vendor blobs -->
-  <project name="PixelExperience-Devices/vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="thirteen"/>
+  <project name="PixelExperience-Devices/vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="twelve"/>
 
 </manifest>
