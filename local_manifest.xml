@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
-  <remote name="github" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_phoenix" />
+  <remote name="device_xiaomi_phoenix" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_phoenix" />
 
 
   <!-- Device tree -->
