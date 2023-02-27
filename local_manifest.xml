@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
   <remote name="device_xiaomi_phoenix" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_phoenix" />
   <remote name="kernel_xiaomi_phoenix" fetch="https://github.com/SreekanthPalakurthi/kranul_phoenix" />
 
