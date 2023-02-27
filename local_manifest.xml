@@ -17,19 +17,4 @@
   <!-- Device-specific vendor blobs -->
   <project name="PixelExperience-Devices/vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="thirteen"/>
 
-  <!-- Prebuilt kernel toolchain -->
-  <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="lineage-18.1"/>
-
-  <!-- Prebuilt kernel clang toolchain -->
-  <project name="LineageOS/android_prebuilts_clang_host_linux-x86_clang-r399163" path="prebuilts/clang/host/linux-x86/clang-r399163" remote="github" revision="lineage-18.1"/>
-
-  <!-- Prebuilt kernel LLVM toolchain -->
-  <project name="LineageOS/android_prebuilts_llvm_host_linux-x86" path="prebuilts/clang/host/linux-x86/llvm" remote="github" revision="lineage-18.1"/>
-
-  <!-- Prebuilt kernel LLD toolchain -->
-  <project name="LineageOS/android_prebuilts_lld_linux-x86" path="prebuilts/clang/host/linux-x86/lld" remote="github" revision="lineage-18.1"/>
-
-  <!-- Prebuilt kernel binutils toolchain -->
-  <project name="LineageOS/android_prebuilts_binutils_linux-x86_arm_arm-eabi-2.26" path="prebuilts/binutils/linux-x86/arm/arm-eabi-2.26" remote="github" revision="lineage-18.1"/>
-
 </manifest>
