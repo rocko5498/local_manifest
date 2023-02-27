@@ -1,19 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="UTF-8"?> 
 
-  <remote name="device_xiaomi_phoenix" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_phoenix" />
-  <remote name="kernel_xiaomi_phoenix" fetch="https://github.com/SreekanthPalakurthi/kranul_phoenix" />
+<manifest> 
 
-  <!-- Device tree -->
-  <project name="PixelExperience-Devices/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="twelve"/>
+  <remote name="common" fetch="https://github.com/xiaomi-sm6150" /> 
 
-  <!-- Kernel source -->
-  <project name="PixelExperience-Devices/kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="kernel_xiaomi_phoenix" revision="twelve"/>
+  <remote name="common_device" fetch="https://github.com/xiaomi-sm6150/android_device_xiaomi_sm6150-common" /> 
 
-  <!-- Common vendor blobs -->
-  <project name="PixelExperience-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="device_xiaomi_phoenix" revision="twelve"/>
+  <remote name="phoenix" fetch="https://github.com/xiaomi-sm6150/android_device_xiaomi_phoenix" />
+  
+  <remote name="lineage" fetch="https://github.com/LineageOS" />
+  
 
-  <!-- Device-specific vendor blobs -->
-  <project name="PixelExperience-Devices/vendor_xiaomi_phoenix" path="vendor/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="twelve"/>
+  <!-- Common Device Tree --> 
+
+  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="common_device" revision="eleven"/> 
+
+       
+
+  <!-- Device Tree --> 
+
+  <project path="device/xiaomi/phoenix" name="android_device_xiaomi_phoenix" remote="phoenix" revision="lineage-20"/> 
+
+  
+
+  <!--Kernel --> 
+
+  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="common" revision="lineage-20"/> 
+
+  
+
+  <!-- Common Vendor Trees-->  
+
+  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="common" revision="lineage-20"/> 
+
+  
+
+  <!-- Vendor Trees --> 
+
+  <project path="vendor/xiaomi/phoenix" name="proprietary_vendor_xiaomi_phoenix" remote="common" revision="lineage-20"/> 
+
+  
+
+  <!--Hardware --> 
+
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20.1"/>    
 
 </manifest>
