@@ -3,16 +3,13 @@
 
   <remote name="PixelExperience" fetch="https://github.com/PixelExperience" />
   <remote name="device_xiaomi_phoenix" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_phoenix" />
-
+  <remote name="kernel_xiaomi_phoenix" fetch="https://github.com/SreekanthPalakurthi/kranul_phoenix" />
 
   <!-- Device tree -->
-  <project name="PixelExperience-Devices/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="github" revision="thirteen"/>
+  <project name="PixelExperience-Devices/device_xiaomi_phoenix" path="device/xiaomi/phoenix" remote="device_xiaomi_phoenix" revision="thirteen"/>
 
   <!-- Kernel source -->
-  <project name="PixelExperience-Devices/kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="github" revision="thirteen"/>
-
-  <!-- Hardware source -->
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1"/>
+  <project name="PixelExperience-Devices/kernel_xiaomi_phoenix" path="kernel/xiaomi/phoenix" remote="kernel_xiaomi_phoenix" revision="thirteen"/>
 
   <!-- Common vendor blobs -->
   <project name="PixelExperience-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="thirteen"/>
