@@ -1,31 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
-<manifest> 
+<remote  name="shripal17"
+           fetch="https://github.com/shripal17" />
 
-  <remote name="common" fetch="https://github.com/xiaomi-sm" /> 
+<remote  name="redcliff-op"
+           fetch="https://github.com/redcliff-op" />
 
-  <remote name="common_device" fetch="https://github.com/xiaomi-sm/android_device_xiaomi_sm6150-common" /> 
+<remote name="arrow" 
+           fetch="https://github.com/ArrowOS-Devices" />
 
-  <remote name="phoenix" fetch="https://github.com/xiaomi-sm/android_device_xiaomi_phoenix" />
-
-  <remote name="lineage" fetch="https://github.com/LineageOS" /> 
-   
-  <!-- Device Tree --> 
-
-  <project path="device/xiaomi/phoenix" name="android_device_xiaomi_phoenix" remote="phoenix" revision="twelve"/> 
-
-   
-  <!-- Common Vendor Trees-->  
-
-  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="common" revision="twelve"/> 
-
+  <!-- Trees -->
   
-  <!-- Vendor Trees --> 
-
-  <project path="vendor/xiaomi/phoenix" name="proprietary_vendor_xiaomi_phoenix" remote="common" revision="twelve"/> 
-
+  <project path="device_xiaomi_phoenix" name="device_xiaomi_phoenix" remote="shripal17" revision="typhoon-staging"/>
   
+  <project path="android_vendor_xiaomi_phoenix" name="android_vendor_xiaomi_phoenix" remote="shripal17" revision="13"/>
+  
+  <<project path="android_kernel_xiaomi_phoenix" name="android_kernel_xiaomi_phoenix" remote="redcliff-op" revision="R"/>
+  
+  <project path="device/xiaomi/extras" name="device/xiaomi/extras" remote="arrow" revision="arrow-12.0"/>
 
-   
 
 </manifest>
