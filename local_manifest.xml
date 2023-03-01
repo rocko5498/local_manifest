@@ -9,40 +9,23 @@
   <remote name="phoenix" fetch="https://github.com/xiaomi-sm/android_device_xiaomi_phoenix" />
 
   <remote name="lineage" fetch="https://github.com/LineageOS" /> 
-
-  
-  <!-- Common Device Tree --> 
-
-  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="common_device" revision="twelve"/> 
-
-       
-
+   
   <!-- Device Tree --> 
 
   <project path="device/xiaomi/phoenix" name="android_device_xiaomi_phoenix" remote="phoenix" revision="twelve"/> 
 
-  
-
-  <!--Kernel --> 
-
-  <project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="common" revision="twelve"/> 
-
-  
-
+   
   <!-- Common Vendor Trees-->  
 
   <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="common" revision="twelve"/> 
 
   
-
   <!-- Vendor Trees --> 
 
   <project path="vendor/xiaomi/phoenix" name="proprietary_vendor_xiaomi_phoenix" remote="common" revision="twelve"/> 
 
   
 
-  <!--Hardware --> 
-
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="twelve"/>    
+   
 
 </manifest>
